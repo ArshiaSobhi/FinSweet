@@ -11,7 +11,7 @@ div.hero {
     position: relative;
     // text srart
     > div.Htext {
-      @include WH(320px, auto);
+      @include WH(100%, auto);
       display: flex;
       flex-flow: column nowrap;
       row-gap: 24px;
@@ -24,10 +24,10 @@ div.hero {
           margin: auto;
           color: var(--White);
           font-family: Poppins;
-          font-size: 36px;
+          font-size: 30px;
           font-style: normal;
           font-weight: 700;
-          line-height: 50px; /* 137.037% */
+          line-height: 40px; /* 137.037% */
           text-align: center;
         }
       }
