@@ -70,7 +70,7 @@ div.how-it-works {
     // heading end
     // cards start
     > div.cards {
-      @include WH(656px, auto);
+      @include WH(100%, auto);
       display: flex;
       flex-flow: column nowrap;
       row-gap: 35px;
