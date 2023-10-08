@@ -20,9 +20,11 @@ div.blog {
       @include WH(100%, auto);
       display: flex;
       flex-flow: column nowrap;
+      align-items: center;
       row-gap: 10px;
       div {
         @include WH(100%, auto);
+        max-width: 300px;
         display: flex;
         flex-flow: column nowrap;
         row-gap: 8px;

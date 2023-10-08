@@ -35,12 +35,14 @@ footer {
           opacity: 0.8;
           width: 80%;
           text-align: center;
+          max-width: 300px;
         }
         div.box {
           display: flex;
           flex-flow: row nowrap;
           column-gap: 30px;
           @include WH(100%, auto);
+          max-width: 400px;
           background-color: var(--Yellow);
           padding: 10px 20px;
           position: absolute;
@@ -96,6 +98,7 @@ footer {
           opacity: 0.8;
           width: 80%;
           text-align: center;
+          max-width: 300px;
         }
         div.socials {
           display: flex;

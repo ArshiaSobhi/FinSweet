@@ -52,6 +52,7 @@ div.our-work {
       // card 1 start
       > a {
         width: 100%;
+        max-width: 450px;
         > div.card1 {
           @include WH(100%, 240px);
           position: relative;
@@ -122,12 +123,14 @@ div.our-work {
       > div.cards-c {
         display: flex;
         flex-flow: column nowrap;
+        align-items: center;
         row-gap: 22px;
         @include WH(100%, 100%);
         flex-shrink: 0;
         // card 2 start
         > a {
           @include WH(100%, auto);
+          max-width: 450px;
           > div.card2 {
             @include WH(100%, 240px);
             position: relative;

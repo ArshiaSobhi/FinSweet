@@ -34,11 +34,13 @@ div.features {
         font-style: normal;
         font-weight: 600;
         line-height: 50px; /* 133.333% */
+        max-width: 550px;
       }
     }
     // cards
     > div.cards {
       @include WH(80%, auto);
+      max-width: 300px;
       display: flex;
       flex-flow: column nowrap;
       row-gap: 10px;

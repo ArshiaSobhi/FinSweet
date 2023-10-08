@@ -38,6 +38,7 @@ div.contact {
           line-height: 38px; /* 137.037% */
           text-align: center;
           width: 100%;
+          max-width: 400px;
         }
         p.two {
           color: var(--White);
@@ -48,6 +49,7 @@ div.contact {
           line-height: 20px; /* 175% */
           text-align: center;
           width: 100%;
+          max-width: 500px;
         }
       }
     }
@@ -81,6 +83,7 @@ div.contact {
       }
       form {
         @include WH(100%, auto);
+        max-width: 500px;
         margin-top: 30px;
         display: flex;
         flex-flow: column nowrap;

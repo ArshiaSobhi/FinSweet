@@ -6,6 +6,8 @@ div.our-work {
   div.wrapper {
     padding-top: 70px;
     padding-bottom: 70px;
+    padding-left: 130px !important;
+    padding-right: 130px !important;
     display: flex;
     flex-flow: column nowrap;
     row-gap: 50px;
@@ -51,6 +53,7 @@ div.our-work {
       row-gap: 26px;
       // card 1 start
       > a {
+        max-width: 750px;
         width: 100%;
         > div.card1 {
           @include WH(100%, 400px);
@@ -122,12 +125,14 @@ div.our-work {
       > div.cards-c {
         display: flex;
         flex-flow: row nowrap;
+        justify-content: center;
         column-gap: 26px;
         @include WH(100%, 100%);
         flex-shrink: 0;
         // card 2 start
         > a {
           @include WH(100%, auto);
+          max-width: 349px;
           > div.card2 {
             @include WH(100%, 240px);
             position: relative;

@@ -39,6 +39,7 @@ div.faq {
     // questions
     div.q {
       @include WH(95%, auto);
+      max-width: 500px;
       display: flex;
       flex-flow: column nowrap;
       div {
@@ -68,7 +69,7 @@ div.faq {
             font-style: normal;
             font-weight: 500;
             line-height: 22px; /* 150% */
-            width: 195px;
+            width: 80%;
           }
         }
         label {
@@ -91,6 +92,9 @@ div.faq {
           top: 32px;
           background-color: var(--White);
           display: none;
+        }
+        label.o {
+          width: 100%;
         }
         div.i {
           @include WH(100%, 0);
