@@ -94,7 +94,7 @@ header {
             }
           }
           > #openmenu:checked ~ div.Hmenu {
-            height: 400px;
+            height: 370px;
             border-top: 1px solid var(--Dark-grey2);
           }
           > #openmenu:checked ~ label:nth-of-type(2) > div.bgMenu {
@@ -114,11 +114,11 @@ header {
             transition: 300ms;
             z-index: 1 !important;
             > div {
-              @include WH(100%, 100%/6);
+              @include WH(100%, 60px);
               display: flex;
               align-items: center;
               > a {
-                @include WH(100%, 90%);
+                @include WH(100%, 100%);
                 display: flex !important;
                 flex-flow: row nowrap;
                 justify-content: center;

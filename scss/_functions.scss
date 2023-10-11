@@ -2,3 +2,11 @@
   width: $width;
   height: $height;
 }
+@mixin FR() {
+  display: flex;
+  flex-flow: row nowrap;
+}
+@mixin FC() {
+  display: flex;
+  flex-flow: column nowrap;
+}

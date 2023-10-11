@@ -15,8 +15,6 @@
     "index-contactXL": "node-sass -w scss/index/desktop/contact.scss -o css/index/desktop/ -r --output-style compressed",
     "index-blogXL": "node-sass -w scss/index/desktop/blog.scss -o css/index/desktop/ -r --output-style compressed",
     "index-footerXL": "node-sass -w scss/index/desktop/footer.scss -o css/index/desktop/ -r --output-style compressed",
-
-
     "index-headerMD": "node-sass -w scss/index/tablet/header.scss -o css/index/tablet/ -r --output-style compressed",
     "index-heroMD": "node-sass -w scss/index/tablet/hero.scss -o css/index/tablet/ -r --output-style compressed",
     "index-how-it-worksMD": "node-sass -w scss/index/tablet/how-it-works.scss -o css/index/tablet/ -r --output-style compressed",
@@ -27,8 +25,6 @@
     "index-contactMD": "node-sass -w scss/index/tablet/contact.scss -o css/index/tablet/ -r --output-style compressed",
     "index-blogMD": "node-sass -w scss/index/tablet/blog.scss -o css/index/tablet/ -r --output-style compressed",
     "index-footerMD": "node-sass -w scss/index/tablet/footer.scss -o css/index/tablet/ -r --output-style compressed",
-
-
     "index-headerXS": "node-sass -w scss/index/mobile/header.scss -o css/index/mobile/ -r --output-style compressed",
     "index-heroXS": "node-sass -w scss/index/mobile/hero.scss -o css/index/mobile/ -r --output-style compressed",
     "index-how-it-worksXS": "node-sass -w scss/index/mobile/how-it-works.scss -o css/index/mobile/ -r --output-style compressed",
@@ -38,7 +34,29 @@
     "index-faqXS": "node-sass -w scss/index/mobile/faq.scss -o css/index/mobile/ -r --output-style compressed",
     "index-contactXS": "node-sass -w scss/index/mobile/contact.scss -o css/index/mobile/ -r --output-style compressed",
     "index-blogXS": "node-sass -w scss/index/mobile/blog.scss -o css/index/mobile/ -r --output-style compressed",
-    "index-footerXS": "node-sass -w scss/index/mobile/footer.scss -o css/index/mobile/ -r --output-style compressed"
+    "index-footerXS": "node-sass -w scss/index/mobile/footer.scss -o css/index/mobile/ -r --output-style compressed",
+
+
+    "about-heroXL": "node-sass -w scss/about-us/desktop/about-hero.scss -o css/about-us/desktop/ -r --output-style compressed",
+    "about-whoXL": "node-sass -w scss/about-us/desktop/who.scss -o css/about-us/desktop/ -r --output-style compressed",
+    "about-processXL": "node-sass -w scss/about-us/desktop/process.scss -o css/about-us/desktop/ -r --output-style compressed",
+    "about-missionXL": "node-sass -w scss/about-us/desktop/mission.scss -o css/about-us/desktop/ -r --output-style compressed",
+    "about-benefitsXL": "node-sass -w scss/about-us/desktop/benefits.scss -o css/about-us/desktop/ -r --output-style compressed",
+    "about-teamXL": "node-sass -w scss/about-us/desktop/team.scss -o css/about-us/desktop/ -r --output-style compressed",
+
+    "about-heroMD": "node-sass -w scss/about-us/tablet/about-hero.scss -o css/about-us/tablet/ -r --output-style compressed",
+    "about-whoMD": "node-sass -w scss/about-us/tablet/who.scss -o css/about-us/tablet/ -r --output-style compressed",
+    "about-processMD": "node-sass -w scss/about-us/tablet/process.scss -o css/about-us/tablet/ -r --output-style compressed",
+    "about-missionMD": "node-sass -w scss/about-us/tablet/mission.scss -o css/about-us/tablet/ -r --output-style compressed",
+    "about-benefitsMD": "node-sass -w scss/about-us/tablet/benefits.scss -o css/about-us/tablet/ -r --output-style compressed",
+    "about-teamMD": "node-sass -w scss/about-us/tablet/team.scss -o css/about-us/tablet/ -r --output-style compressed",
+
+    "about-heroXS": "node-sass -w scss/about-us/mobile/about-hero.scss -o css/about-us/mobile/ -r --output-style compressed",
+    "about-whoXS": "node-sass -w scss/about-us/mobile/who.scss -o css/about-us/mobile/ -r --output-style compressed",
+    "about-processXS": "node-sass -w scss/about-us/mobile/process.scss -o css/about-us/mobile/ -r --output-style compressed",
+    "about-missionXS": "node-sass -w scss/about-us/mobile/mission.scss -o css/about-us/mobile/ -r --output-style compressed",
+    "about-benefitsXS": "node-sass -w scss/about-us/mobile/benefits.scss -o css/about-us/mobile/ -r --output-style compressed",
+    "about-teamXS": "node-sass -w scss/about-us/mobile/team.scss -o css/about-us/mobile/ -r --output-style compressed"
   },
   "keywords": [],
   "author": "",
